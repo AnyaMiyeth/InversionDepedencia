@@ -18,6 +18,7 @@ namespace InversionDepedencia
             IFormato formatoExcel = new FormatoExcelService(documento2);
             ImpresionService service = new ImpresionService(formatoExcel);
             Console.WriteLine(service.Imprimir());
+
             Console.ReadKey();
         }
     }
